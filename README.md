@@ -1,7 +1,8 @@
 # michener1997
 LaTeX TikZ re-creation of a diagram in: \\
 ```
-    William K. Michener, James W. Brunt, John J. Helly, Thomas B. Kirchner, and Susan G. Stafford. 1997.
+    William K. Michener, James W. Brunt, John J. Helly, Thomas B. Kirchner,
+    and Susan G. Stafford. 1997.
     Nongeospatial Metadata for the Ecological Sciences.
     Ecological Applications 7:1:330-342
 ```     
@@ -31,4 +32,4 @@ $ gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=jpeg -dDOINTERPOLATE -dTextAlphaBits=4 -
 # Sample JPEG output
 
 
-[alt text](https://raw.githubusercontent.com/gnewton/clw1999/master/Crossan_Lane_White_AMR24_3_1999_figure1_p532.jpg)
+[alt text](https://raw.githubusercontent.com/gnewton/michener1997/master/afterMichener1997page.jpg)
