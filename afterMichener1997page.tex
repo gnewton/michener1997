@@ -1,0 +1,38 @@
+% Author: Glen Newton
+%
+% Copyright 2010 Glen Newton newtong@acm.org
+%
+% Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Canada
+% License. http://creativecommons.org/licenses/by-nc-sa/2.5/ca/
+%
+% How to build: 'pdflatex -shell-escape d_afterMichel1997.tex'
+%
+%
+
+\documentclass{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usepackage{hyperref} 
+%\usetikzlibrary{fit}
+%\usetikzlibrary{positioning} 
+
+% GNUPLOT required
+\usepackage{verbatim}
+
+\setlength{\textwidth}{17.9cm}
+\setlength{\oddsidemargin}{-0.6cm}
+
+\begin{comment}
+  Uses gnuplot http://www.gnuplot.info/
+  latex must be run with either --shell-escape or --enable-write18
+\end{comment}
+
+\pagestyle{empty}
+\begin{document}
+%\noindent Degradation in information content associated with data and
+%metadata over time
+\begin{figure}
+  \include{afterMichener1997}
+\end{figure}
+\end{document}
