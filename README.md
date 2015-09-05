@@ -1,5 +1,5 @@
 # michener1997
-LaTeX TikZ re-creation of a diagram in: \\
+LaTeX TikZ re-creation of a diagram in: 
 ```
     William K. Michener, James W. Brunt, John J. Helly, Thomas B. Kirchner,
     and Susan G. Stafford. 1997.
@@ -11,9 +11,9 @@ DOI: [http://dx.doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2](10.1890
 
 ##Dependencies
 
-*LaTeX
-*TiKz
-*gnuplot http://www.gnuplot.info/
+* LaTeX
+* TiKz
+* gnuplot http://www.gnuplot.info/
 
 ##Building
 
@@ -32,4 +32,5 @@ $ gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=jpeg -dDOINTERPOLATE -dTextAlphaBits=4 -
 # Sample JPEG output
 
 
-[alt text](https://raw.githubusercontent.com/gnewton/michener1997/master/afterMichener1997page.jpg)
+![alt text](https://raw.githubusercontent.com/gnewton/michener1997/master/afterMichener1997page.jpg)
+
